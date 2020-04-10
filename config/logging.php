@@ -96,7 +96,7 @@ return [
             'handler' => NullHandler::class,
         ],
 
-        'elasticsearch' => [
+        /*'elasticsearch' => [
             'driver' => 'monolog',
             'handler' => Monolog\Handler\ElasticsearchHandler::class,
             'with' => [
@@ -114,7 +114,7 @@ return [
                 'index' => 'laravel',
                 'type' => 'storage',
             ],
-        ],
+        ],*/
     ],
 
 ];
