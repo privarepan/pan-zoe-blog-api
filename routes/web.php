@@ -11,10 +11,9 @@
 |
 */
 
-use Elasticsearch\ClientBuilder;
 use Illuminate\Support\Facades\Mail;
 Route::get('/', function () {
-    Mail::send(\App\Models\User::find(1),new \Illuminate\Auth\Notifications\VerifyEmail);
+    return 'hello';
 //    \Illuminate\Support\Facades\Log::channel('elasticsearch')->info("tewrewrew", []);
     /*$client = Elasticsearch\ClientBuilder::create()
         ->setHosts(explode(',', env('ELASTIC_HOST')))
